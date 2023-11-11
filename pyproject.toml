@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "py16-web-hw08"
+version = "0.1.0"
+description = ""
+authors = ["Maximus-22 <maksim.melnichenko@nservice.com.ua>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.6.0"
+mongoengine = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
