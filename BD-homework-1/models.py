@@ -3,7 +3,7 @@ from mongoengine import connect, Document, StringField, ReferenceField, ListFiel
 
 
 connect(db = "BD-homework",
-        host = "mongodb+srv://maximusm_22:123qweasd@cluster0.aemcehc.mongodb.net/?retryWrites=true&w=majority",)
+        host = "mongodb+srv://maximusm_22:<password>@cluster0.aemcehc.mongodb.net/?retryWrites=true&w=majority",)
 
 
 class Author(Document):
